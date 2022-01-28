@@ -16,9 +16,15 @@ import org.junit.Test;
  */
 public class PasswordCheckerTest_STUDENT {
 
+	ArrayList<String> passwords ;
+	private String UpperTest;
+	
+	
+	
+	
 	@Before
 	public void setUp() throws Exception {
-		
+		passwords = new ArrayList<String>();
 	}
 
 	@After
