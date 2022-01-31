@@ -25,6 +25,10 @@ public class PasswordCheckerTest_STUDENT {
 	@Before
 	public void setUp() throws Exception {
 		passwords = new ArrayList<String>();
+		String[] pass = {"AAAAA", "aaaaaaaaaa", "AAAAAAA", "Aabb129#", "AAAAAAAAAA", "AAAAAAAAAA", "Aa123$fkw$jsl"
+				};
+		
+		passwords.addAll(Arrays.asList(pass));
 	}
 
 	@After
@@ -39,7 +43,19 @@ public class PasswordCheckerTest_STUDENT {
 	@Test
 	public void testIsValidPasswordTooShort()
 	{
-		fail("Not implemented by student yet");
+		try{
+			assertTrue(PasswordCheckerUtility.isValidLength​(passwords.get(0)));
+			assertTrue("Did not throw lengthException",false);
+		}
+		catch(LengthException e)
+		{
+			assertTrue("threw a lengthExcepetion",true);
+		}
+		 
+		catch(Exception e)
+		{
+			assertTrue("did not throw length exception",false);
+		}
 	}
 	
 	/**
@@ -49,7 +65,19 @@ public class PasswordCheckerTest_STUDENT {
 	@Test
 	public void testIsValidPasswordNoUpperAlpha()
 	{
-		fail("Not implemented by student yet");
+		try{
+			assertTrue(PasswordCheckerUtility.hasUpperAlpha​(passwords.get(1)));
+			assertTrue("Did not throw NoUpperAlphaException",false);
+		}
+		catch(NoUpperAlphaException e)
+		{
+			assertTrue("threw a NoUpperAlphaExcepetion",true);
+		}
+		 
+		catch(Exception e)
+		{
+			assertTrue("did not throw NoUpperAlphaexception",false);
+		}
 	}
 	
 	/**
@@ -59,7 +87,19 @@ public class PasswordCheckerTest_STUDENT {
 	@Test
 	public void testIsValidPasswordNoLowerAlpha()
 	{
-		fail("Not implemented by student yet");
+		try{
+			assertTrue(PasswordCheckerUtility.hasLowerAlpha​(passwords.get(2)));
+			assertTrue("Did not throw NoLowerAlphaException",false);
+		}
+		catch(NoLowerAlphaException e)
+		{
+			assertTrue("threw a NoLowerAlphaExcepetion",true);
+		}
+		 
+		catch(Exception e)
+		{
+			assertTrue("did not throw NoLowerAlphaexception",false);
+		}
 	}
 	/**
 	 * Test if the password has more than 2 of the same character in sequence
@@ -68,7 +108,19 @@ public class PasswordCheckerTest_STUDENT {
 	@Test
 	public void testIsWeakPassword()
 	{
-		fail("Not implemented by student yet");
+		try{
+			assertTrue(PasswordCheckerUtility.isWeakPassword(passwords.get(3)));
+			assertTrue("Did not throw weakPasswordException",false);
+		}
+		catch(WeakPasswordException e)
+		{
+			assertTrue("threw a WeakPasswordException",true);
+		}
+		 
+		catch(Exception e)
+		{
+			assertTrue("did not throw WeakPasswordException",false);
+		}
 	}
 	
 	/**
@@ -78,7 +130,19 @@ public class PasswordCheckerTest_STUDENT {
 	@Test
 	public void testIsValidPasswordInvalidSequence()
 	{
-		fail("Not implemented by student yet");
+		try{
+			assertTrue(PasswordCheckerUtility.NoSameCharInSequence​(passwords.get(4)));
+			assertTrue("Did not throw InvalidSequenceException",false);
+		}
+		catch(InvalidSequenceException e)
+		{
+			assertTrue("threw a InvalidSequenceException",true);
+		}
+		 
+		catch(Exception e)
+		{
+			assertTrue("did not throw InvalidSequenceException",false);
+		}
 	}
 	
 	/**
@@ -88,8 +152,21 @@ public class PasswordCheckerTest_STUDENT {
 	@Test
 	public void testIsValidPasswordNoDigit()
 	{
-		fail("Not implemented by student yet");
+		try{
+			assertTrue(PasswordCheckerUtility.hasDigit​(passwords.get(5)));
+			assertTrue("Did not throw NoDigitException",false);
+		}
+		catch(NoDigitException e)
+		{
+			assertTrue("threw a NoDigitException",true);
+		}
+		 
+		catch(Exception e)
+		{
+			assertTrue("did not throw NoDigitException",false);
+		}
 	}
+	
 	
 	/**
 	 * Test correct passwords
@@ -98,7 +175,15 @@ public class PasswordCheckerTest_STUDENT {
 	@Test
 	public void testIsValidPasswordSuccessful()
 	{
-		fail("Not implemented by student yet");
+		try{
+			assertTrue(PasswordCheckerUtility.isValidPassword​(passwords.get(6)));
+			assertTrue("Did not throw exception",true);
+		}
+		
+		catch(Exception e)
+		{
+			fail("not valid");
+		}
 	}
 	
 	/**
@@ -107,7 +192,19 @@ public class PasswordCheckerTest_STUDENT {
 	 */
 	@Test
 	public void testInvalidPasswords() {
-		fail("Not implemented by student yet");
+		passwords.remove(6);
+		passwords.remove(3);
+		try{
+			
+			assertEquals(PasswordCheckerUtility.getInvalidPasswords(passwords).isEmpty(),false);
+			assertTrue("it did indeed word",true);
+			
+		}
+		
+		catch(Exception e)
+		{
+			fail("not valid");
+		}
 	}
 	
 }
