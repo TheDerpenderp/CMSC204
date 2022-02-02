@@ -3,4 +3,7 @@
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
     <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
     <fullyQualifiedTypeName name="GenericInterfaceImplementation"/>
+    <fullyQualifiedTypeName name="BagInterface"/>
+    <fullyQualifiedTypeName name="FixedSizeArrayBag"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
