@@ -42,7 +42,7 @@ public class PasswordChecker_GFA_Test {
 	public void testIsValidPasswordTooShort()
 	{
 		try{
-			assertTrue(PasswordCheckerUtility.isValidPassword​("abc12"));
+			assertTrue(PasswordCheckerUtility.isValidPassword("abc12"));
 		}
 		catch(LengthException e)
 		{
@@ -60,7 +60,7 @@ public class PasswordChecker_GFA_Test {
 	public void testIsValidPasswordSuccess()
 	{
 		try{
-			assertEquals(true,PasswordCheckerUtility.isValidPassword​("strongPWD1"));
+			assertEquals(true,PasswordCheckerUtility.isValidPassword("strongPWD1"));
 		}
 		catch(NoSpecialCharacterException e)
 		{
@@ -78,7 +78,7 @@ public class PasswordChecker_GFA_Test {
 	public void testIsValidPasswordTooShortThrowsSomeOtherExcep()
 	{
 		try{
-			assertTrue(PasswordCheckerUtility.isValidPassword​("abcABs"));
+			assertTrue(PasswordCheckerUtility.isValidPassword("abcABs"));
 		}
 		catch(LengthException e)
 		{

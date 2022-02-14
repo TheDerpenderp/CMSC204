@@ -44,7 +44,7 @@ public class PasswordCheckerTest_STUDENT {
 	public void testIsValidPasswordTooShort()
 	{
 		try{
-			assertTrue(PasswordCheckerUtility.isValidLength​(passwords.get(0)));
+			assertTrue(PasswordCheckerUtility.isValidLength(passwords.get(0)));
 			assertTrue("Did not throw lengthException",false);
 		}
 		catch(LengthException e)
@@ -66,7 +66,7 @@ public class PasswordCheckerTest_STUDENT {
 	public void testIsValidPasswordNoUpperAlpha()
 	{
 		try{
-			assertTrue(PasswordCheckerUtility.hasUpperAlpha​(passwords.get(1)));
+			assertTrue(PasswordCheckerUtility.hasUpperAlpha(passwords.get(1)));
 			assertTrue("Did not throw NoUpperAlphaException",false);
 		}
 		catch(NoUpperAlphaException e)
@@ -88,7 +88,7 @@ public class PasswordCheckerTest_STUDENT {
 	public void testIsValidPasswordNoLowerAlpha()
 	{
 		try{
-			assertTrue(PasswordCheckerUtility.hasLowerAlpha​(passwords.get(2)));
+			assertTrue(PasswordCheckerUtility.hasLowerAlpha(passwords.get(2)));
 			assertTrue("Did not throw NoLowerAlphaException",false);
 		}
 		catch(NoLowerAlphaException e)
@@ -131,7 +131,7 @@ public class PasswordCheckerTest_STUDENT {
 	public void testIsValidPasswordInvalidSequence()
 	{
 		try{
-			assertTrue(PasswordCheckerUtility.NoSameCharInSequence​(passwords.get(4)));
+			assertTrue(PasswordCheckerUtility.NoSameCharInSequence(passwords.get(4)));
 			assertTrue("Did not throw InvalidSequenceException",false);
 		}
 		catch(InvalidSequenceException e)
@@ -153,7 +153,7 @@ public class PasswordCheckerTest_STUDENT {
 	public void testIsValidPasswordNoDigit()
 	{
 		try{
-			assertTrue(PasswordCheckerUtility.hasDigit​(passwords.get(5)));
+			assertTrue(PasswordCheckerUtility.hasDigit(passwords.get(5)));
 			assertTrue("Did not throw NoDigitException",false);
 		}
 		catch(NoDigitException e)
@@ -176,7 +176,7 @@ public class PasswordCheckerTest_STUDENT {
 	public void testIsValidPasswordSuccessful()
 	{
 		try{
-			assertTrue(PasswordCheckerUtility.isValidPassword​(passwords.get(6)));
+			assertTrue(PasswordCheckerUtility.isValidPassword(passwords.get(6)));
 			assertTrue("Did not throw exception",true);
 		}
 		

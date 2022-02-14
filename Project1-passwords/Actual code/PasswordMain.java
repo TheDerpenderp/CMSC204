@@ -133,11 +133,11 @@ public class PasswordMain extends BorderPane
 		String passwordAString = passwordAText.getText();
 		try
 		{
-			if (!PasswordCheckerUtility.comparePasswordsWithReturn​(passwordString, passwordAString)) {
+			if (!PasswordCheckerUtility.comparePasswordsWithReturn(passwordString, passwordAString)) {
 				throw new UnmatchedException();
 			}
 			
-			if (PasswordCheckerUtility.isValidPassword​(passwordString)) {
+			if (PasswordCheckerUtility.isValidPassword(passwordString)) {
 				if (PasswordCheckerUtility.isWeakPassword(passwordString)) {
 					alert.setContentText("Password is OK but weak");
 					alert.showAndWait();

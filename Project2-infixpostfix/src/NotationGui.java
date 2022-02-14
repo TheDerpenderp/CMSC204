@@ -48,7 +48,7 @@ public class NotationGui extends Application {
 					if(infixToPostfix.isSelected())
 					{
 						infix = infixtxt.getText();
-						result = Notation.convertInfixToPostfix​(infix);
+						result = Notation.convertInfixToPostfix(infix);
 						postfixlbl.setVisible(true);
 						postfixtxt.setVisible(true);
 						postfixtxt.setText(result);
@@ -57,7 +57,7 @@ public class NotationGui extends Application {
 					else if(postfixToInfix.isSelected())
 					{
 						postfix = postfixtxt.getText();
-						result = Notation.convertPostfixToInfix​(postfix);
+						result = Notation.convertPostfixToInfix(postfix);
 						System.out.println("result "+result);
 						infixlbl.setVisible(true);
 						infixtxt.setVisible(true);
@@ -74,10 +74,10 @@ public class NotationGui extends Application {
 
 				try{
 					String postfixExpr = postfixtxt2.getText();
-					double a = Notation.evaluatePostfixExpression​(postfixExpr);
+					double a = Notation.evaluatePostfixExpression(postfixExpr);
 					evalanswerlbl.setVisible(true);
 					evalanswer.setVisible(true);
-					evalanswer.setText(Double.toString(Notation.evaluatePostfixExpression​(postfixExpr)));
+					evalanswer.setText(Double.toString(Notation.evaluatePostfixExpression(postfixExpr)));
 				}
 				catch (InvalidNotationFormatException exception)
 				{

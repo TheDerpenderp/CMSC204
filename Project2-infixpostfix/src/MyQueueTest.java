@@ -33,7 +33,7 @@ public class MyQueueTest {
 	}
 
 	@Test
-	public void testIsEmpty() {
+	public void testIsEmpty() throws QueueUnderflowException {
 		assertEquals(false,stringQ.isEmpty());
 		stringQ.dequeue();
 		stringQ.dequeue();
@@ -66,7 +66,7 @@ public class MyQueueTest {
 	}
 
 	@Test
-	public void testSize() {
+	public void testSize() throws QueueOverflowException, QueueUnderflowException {
 		assertEquals(3, stringQ.size());
 		stringQ.enqueue(d);
 		assertEquals(4, stringQ.size());
@@ -102,7 +102,7 @@ public class MyQueueTest {
 	}
 
 	@Test
-	public void testIsFull() {
+	public void testIsFull() throws QueueOverflowException {
 		assertEquals(false, stringQ.isFull());
 		stringQ.enqueue(d);
 		stringQ.enqueue(e);
@@ -110,7 +110,7 @@ public class MyQueueTest {
 	}
 
 	@Test
-	public void testToString() {
+	public void testToString() throws QueueOverflowException {
 		assertEquals("abc", stringQ.toString());
 		stringQ.enqueue(d);
 		assertEquals("abcd", stringQ.toString());
@@ -125,7 +125,7 @@ public class MyQueueTest {
 	}
 
 	@Test
-	public void testToStringDelimiter() {
+	public void testToStringDelimiter() throws QueueOverflowException {
 		assertEquals("a%b%c", stringQ.toString("%"));
 		stringQ.enqueue(d);
 		assertEquals("a&b&c&d", stringQ.toString("&"));
@@ -134,7 +134,7 @@ public class MyQueueTest {
 	}
 
 	@Test
-	public void testFill() {
+	public void testFill() throws QueueUnderflowException {
 		fill.add("apple");
 		fill.add("banana");
 		fill.add("carrot");

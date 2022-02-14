@@ -1,57 +1,114 @@
 import java.util.ArrayList;
 
-public class MyStack<T> implements StackInterface{
+public class MyStack<T> implements StackInterface<T>{
 
-	public MyStack(int i) {
-		// TODO Auto-generated constructor stub
+	private T[] theStack;
+	private int maxSize;
+	
+	
+	public MyStack() {
+		theStack =(T[]) new Object[10];
+		
+		maxSize = 0;
+	}
+	
+	
+	public MyStack(int size) {
+		theStack =(T[]) new Object[size];
+		
+		maxSize = 0;
 	}
 
-	@Override
+	
 	public boolean isEmpty() {
 		// TODO Auto-generated method stub
-		return false;
+		return maxSize==0;
 	}
 
-	@Override
+	
 	public boolean isFull() {
 		// TODO Auto-generated method stub
-		return false;
+		return maxSize==theStack.length;
 	}
 
-	@Override
-	public Object pop() throws StackUnderflowException {
-		// TODO Auto-generated method stub
-		return null;
+
+	public T pop() throws StackUnderflowException {
+		if(isEmpty()) {
+			throw new StackUnderflowException();
+		}
+		T toReturn = null;
+		
+		toReturn = theStack[maxSize-1];
+		theStack[maxSize-1]=null;
+		maxSize--;
+		
+		return toReturn;
 	}
 
-	@Override
-	public Object top() throws StackUnderflowException {
-		// TODO Auto-generated method stub
-		return null;
+	
+	public T top() throws StackUnderflowException {
+		if(isEmpty()) {
+			throw new StackUnderflowException();
+		}
+		return theStack[maxSize-1];
 	}
 
-	@Override
+	
 	public int size() {
 		// TODO Auto-generated method stub
-		return 0;
+		return maxSize;
 	}
 
-	@Override
-	public boolean push(Object e) throws StackOverflowException {
-		// TODO Auto-generated method stub
-		return false;
+	
+
+	public boolean push(T e) throws StackOverflowException {
+		if(isFull()) {
+			throw new StackOverflowException();
+		}
+		theStack[maxSize]=e;
+		maxSize++;
+		
+		
+		return true;
 	}
 
-	@Override
+	
+	public String toString() {
+		String toRet = "";
+		for(int i = 0; i<maxSize; i++)
+			toRet+=theStack[i];
+		
+		return toRet;
+	}
+	
+	
+	
 	public String toString(String delimiter) {
-		// TODO Auto-generated method stub
-		return null;
+		String toRet = "";
+		for(int i = 0; i<maxSize-1; i++)
+			toRet+=theStack[i]+delimiter;
+		
+		toRet+=theStack[maxSize-1];
+		
+		return toRet;
 	}
 
-	@Override
-	public void fill(ArrayList list) {
-		// TODO Auto-generated method stub
+	
+	public void fill(ArrayList<T> list) throws StackOverflowException {
+		ArrayList<T> copy = new ArrayList<T>();
+		for(T ele: list)
+			copy.add(ele);
+		
+		for(T ele: copy) {
+			if(isFull()) {
+				throw new StackOverflowException();
+			}
+			theStack[maxSize] = ele;
+			maxSize++;
+		}
+		
 		
 	}
+
 
 }

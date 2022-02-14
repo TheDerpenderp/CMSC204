@@ -50,7 +50,7 @@ public class PasswordCheckerTestPrivate {
 		Throwable exception = assertThrows(UnmatchedException.class, new Executable() {			
 			@Override
 			public void execute() throws Throwable {
-				PasswordCheckerUtility.comparePasswords​(password, passwordConfirm);				
+				PasswordCheckerUtility.comparePasswords(password, passwordConfirm);				
 			}
 		});
 		
@@ -59,14 +59,14 @@ public class PasswordCheckerTestPrivate {
 	
 	@Test 
 	void testComparePasswordsWithReturn() {
-		assertFalse(PasswordCheckerUtility.comparePasswordsWithReturn​(password, passwordConfirm));
-		assertTrue(PasswordCheckerUtility.comparePasswordsWithReturn​(password, password));
+		assertFalse(PasswordCheckerUtility.comparePasswordsWithReturn(password, passwordConfirm));
+		assertTrue(PasswordCheckerUtility.comparePasswordsWithReturn(password, password));
 	}	
 	
 	@Test
 	void testValidLengthValid() {
 		try {
-			assertTrue(PasswordCheckerUtility.isValidLength​("Beautiful"));
+			assertTrue(PasswordCheckerUtility.isValidLength("Beautiful"));
 		} catch (LengthException e) {
 			e.printStackTrace();
 		}
@@ -77,7 +77,7 @@ public class PasswordCheckerTestPrivate {
 		Throwable exception = Assertions.assertThrows(LengthException.class, new Executable() {
 			@Override
 			public void execute() throws Throwable {
-				PasswordCheckerUtility.isValidLength​(password);
+				PasswordCheckerUtility.isValidLength(password);
 			}			
 		});
 		assertEquals("The password must be at least 6 characters long", exception.getMessage());
@@ -86,7 +86,7 @@ public class PasswordCheckerTestPrivate {
 	@Test
 	void testHasUpperAlphaValid() {
 		try {
-			assertTrue(PasswordCheckerUtility.hasUpperAlpha​("Beautiful"));
+			assertTrue(PasswordCheckerUtility.hasUpperAlpha("Beautiful"));
 		} catch (NoUpperAlphaException e) {
 			e.printStackTrace();
 		}
@@ -97,7 +97,7 @@ public class PasswordCheckerTestPrivate {
 		Throwable exception = assertThrows(NoUpperAlphaException.class, new Executable() {
 			@Override
 			public void execute() throws Throwable {
-				PasswordCheckerUtility.hasUpperAlpha​(passwordConfirm);
+				PasswordCheckerUtility.hasUpperAlpha(passwordConfirm);
 			}			
 		});
 		assertEquals("The password must contain at least one uppercase alphabetic character", exception.getMessage());		
@@ -106,7 +106,7 @@ public class PasswordCheckerTestPrivate {
 	@Test
 	public void testHasLowerAlpha() {
 		try {
-			assertTrue(PasswordCheckerUtility.hasLowerAlpha​(password));
+			assertTrue(PasswordCheckerUtility.hasLowerAlpha(password));
 		} catch (NoLowerAlphaException e) {
 			e.printStackTrace();
 		}		
@@ -117,7 +117,7 @@ public class PasswordCheckerTestPrivate {
 		Throwable exception = assertThrows(NoLowerAlphaException.class, new Executable() {
 			@Override
 			public void execute() throws Throwable {
-				PasswordCheckerUtility.hasLowerAlpha​(allCaps);
+				PasswordCheckerUtility.hasLowerAlpha(allCaps);
 			}			
 		});
 		assertEquals("The password must contain at least one lowercase alphabetic character", exception.getMessage());
@@ -127,7 +127,7 @@ public class PasswordCheckerTestPrivate {
 	@Test
 	public void testHasDigit() {
 		try {
-			assertTrue(PasswordCheckerUtility.hasDigit​(withDigit));
+			assertTrue(PasswordCheckerUtility.hasDigit(withDigit));
 		} catch (NoDigitException e) {
 			e.printStackTrace();
 		}		
@@ -138,7 +138,7 @@ public class PasswordCheckerTestPrivate {
 		Throwable exception = assertThrows(NoDigitException.class, new Executable() {
 			@Override
 			public void execute() throws Throwable {
-				PasswordCheckerUtility.hasDigit​(password);
+				PasswordCheckerUtility.hasDigit(password);
 			}			
 		});
 		assertEquals("The password must contain at least one digit", exception.getMessage());		
@@ -147,7 +147,7 @@ public class PasswordCheckerTestPrivate {
 	@Test
 	public void testHasSpecialChar() {
 		try {
-			assertTrue(PasswordCheckerUtility.hasSpecialChar​(withSpecialChar));
+			assertTrue(PasswordCheckerUtility.hasSpecialChar(withSpecialChar));
 		} catch (NoSpecialCharacterException e) {
 			e.printStackTrace();
 		}		
@@ -158,7 +158,7 @@ public class PasswordCheckerTestPrivate {
 		Throwable exception = assertThrows(NoSpecialCharacterException.class, new Executable() {
 			@Override
 			public void execute() throws Throwable {
-				PasswordCheckerUtility.hasSpecialChar​(password);
+				PasswordCheckerUtility.hasSpecialChar(password);
 			}			
 		});
 		assertEquals("The password must contain at least one special character", exception.getMessage());		
@@ -169,7 +169,7 @@ public class PasswordCheckerTestPrivate {
 		Throwable exception = assertThrows(InvalidSequenceException.class, new Executable() {
 			@Override
 			public void execute() throws Throwable {
-				PasswordCheckerUtility.NoSameCharInSequence​("AAAbb@123");
+				PasswordCheckerUtility.NoSameCharInSequence("AAAbb@123");
 			}			
 		});
 		assertEquals("The password cannot contain more than two of the same character in sequence", exception.getMessage());	
@@ -178,7 +178,7 @@ public class PasswordCheckerTestPrivate {
 	@Test
 	public void testDoesNotHaveSameCharInSequence() {
 		try {
-			assertTrue(PasswordCheckerUtility.NoSameCharInSequence​(withNoDuplicate));
+			assertTrue(PasswordCheckerUtility.NoSameCharInSequence(withNoDuplicate));
 		} catch (InvalidSequenceException e) {
 			e.printStackTrace();
 		}		
@@ -186,9 +186,9 @@ public class PasswordCheckerTestPrivate {
 	
 	@Test
 	public void testHasBetweenSixAndNineChars() {
-		assertTrue(PasswordCheckerUtility.hasBetweenSixAndNineChars​(between6And9Chars));	
-		assertTrue(PasswordCheckerUtility.hasBetweenSixAndNineChars​(withSpecialChar));	
-		assertFalse(PasswordCheckerUtility.hasBetweenSixAndNineChars​(longPassword));	
+		assertTrue(PasswordCheckerUtility.hasBetweenSixAndNineChars(between6And9Chars));	
+		assertTrue(PasswordCheckerUtility.hasBetweenSixAndNineChars(withSpecialChar));	
+		assertFalse(PasswordCheckerUtility.hasBetweenSixAndNineChars(longPassword));	
 	}
 	
 	@Test

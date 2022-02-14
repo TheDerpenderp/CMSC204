@@ -29,27 +29,27 @@ public class NotationTest {
 	}
 
 	@Test
-	public void testComplexConvertInfixToPostfix() {
-		String postfixResult = Notation.convertInfixToPostfix​(complexInfix);
+	public void testComplexConvertInfixToPostfix() throws InvalidNotationFormatException {
+		String postfixResult = Notation.convertInfixToPostfix(complexInfix);
 		assertEquals(complexPostfix, postfixResult);
 	}
 	
 	@Test
-	public void testIntermediateConvertInfixToPostfix() {
-		String postfixResult = Notation.convertInfixToPostfix​(intermediateInfix);
+	public void testIntermediateConvertInfixToPostfix() throws InvalidNotationFormatException {
+		String postfixResult = Notation.convertInfixToPostfix(intermediateInfix);
 		assertEquals(intermediatePostfix, postfixResult);
 	}
 	
 	@Test
-	public void testEasyConvertInfixToPostfix() {
-		String postfixResult = Notation.convertInfixToPostfix​(easyInfix);
+	public void testEasyConvertInfixToPostfix() throws InvalidNotationFormatException {
+		String postfixResult = Notation.convertInfixToPostfix(easyInfix);
 		assertEquals(easyPostfix, postfixResult);
 	}
 	
 	@Test
 	public void testInvalidInfixExpression() {
 		try{
-			Notation.convertInfixToPostfix​(invalidInfixExpression);
+			Notation.convertInfixToPostfix(invalidInfixExpression);
 			assertTrue("This should have thrown an InvalidNotationFormatException",false);
 		}
 		catch (InvalidNotationFormatException e)
@@ -59,27 +59,27 @@ public class NotationTest {
 	}
 	
 	@Test
-	public void testComplexConvertPostfixToInfix() {
-		String infixResult = Notation.convertPostfixToInfix​(complexPostfix);
+	public void testComplexConvertPostfixToInfix() throws InvalidNotationFormatException {
+		String infixResult = Notation.convertPostfixToInfix(complexPostfix);
 		assertEquals(complexInfix, infixResult);
 	}
 	
 	@Test
-	public void testIntermediateConvertPostfixToInfix() {
-		String infixResult = Notation.convertPostfixToInfix​(intermediatePostfix);
+	public void testIntermediateConvertPostfixToInfix() throws InvalidNotationFormatException {
+		String infixResult = Notation.convertPostfixToInfix(intermediatePostfix);
 		assertEquals(intermediateInfix, infixResult);
 	}
 	
 	@Test
-	public void testEasyConvertPostfixToInfix() {
-		String infixResult = Notation.convertPostfixToInfix​(easyPostfix);
+	public void testEasyConvertPostfixToInfix() throws InvalidNotationFormatException {
+		String infixResult = Notation.convertPostfixToInfix(easyPostfix);
 		assertEquals(easyInfix, infixResult);
 	}
 
 	@Test
 	public void testInvalidPostfixExpressionB() {
 		try{
-			Notation.convertPostfixToInfix​(invalidPostfixExpression);
+			Notation.convertPostfixToInfix(invalidPostfixExpression);
 			assertTrue("This should have thrown an InvalidNotationFormatException",false);
 		}
 		catch (InvalidNotationFormatException e)
@@ -89,27 +89,27 @@ public class NotationTest {
 	}
 	
 	@Test
-	public void testComplexEvaluatePostfixExpression() {
-		double result = Notation.evaluatePostfixExpression​(complexPostfix);
+	public void testComplexEvaluatePostfixExpression() throws InvalidNotationFormatException {
+		double result = Notation.evaluatePostfixExpression(complexPostfix);
 		assertEquals(evalComplexPostfix, result, .001);
 	}
 	
 	@Test
-	public void testIntermediateEvaluatePostfixExpression() {
-		double result = Notation.evaluatePostfixExpression​(intermediatePostfix);
+	public void testIntermediateEvaluatePostfixExpression() throws InvalidNotationFormatException {
+		double result = Notation.evaluatePostfixExpression(intermediatePostfix);
 		assertEquals(evalIntermediatePostfix, result, .001);
 	}
 	
 	@Test
-	public void testEasyEvaluatePostfixExpression() {
-		double result = Notation.evaluatePostfixExpression​(easyPostfix);
+	public void testEasyEvaluatePostfixExpression() throws InvalidNotationFormatException {
+		double result = Notation.evaluatePostfixExpression(easyPostfix);
 		assertEquals(evalEasyPostfix, result, .001);
 	}
 	
 	@Test
 	public void testInvalidPostfixExpressionA() {
 		try{
-			Notation.evaluatePostfixExpression​(invalidPostfixExpression);
+			Notation.evaluatePostfixExpression(invalidPostfixExpression);
 			assertTrue("This should have thrown an InvalidNotationFormatException",false);
 		}
 		catch (InvalidNotationFormatException e)

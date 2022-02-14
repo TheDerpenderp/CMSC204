@@ -16,6 +16,9 @@ public class MyStackTest {
 	public MyStack<Double> doubleS;
 	// STUDENT: add variables as needed for your student tests
 	
+	
+	
+	
 	@Before
 	public void setUp() throws Exception {
 		stringS = new MyStack<String>(5);
@@ -24,6 +27,10 @@ public class MyStackTest {
 		stringS.push(c);
 		
 		//STUDENT: add setup for doubleS for student tests
+		doubleS = new MyStack<Double>(5);
+		doubleS.push(1.0);
+		doubleS.push(2.1);
+		doubleS.push(3.2);
 	}
 
 	@After
@@ -131,7 +138,7 @@ public class MyStackTest {
 	@Test
 	public void testToStringStudent() {
 		//Use the doubleQ for student tests
-		fail("Not yet implemented");
+		assertEquals("1.02.13.2", doubleS.toString());
 	}
 	
 	@Test

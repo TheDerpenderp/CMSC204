@@ -38,7 +38,7 @@ class PasswordCheckerTestPublic {
 		Throwable exception = assertThrows(UnmatchedException.class, new Executable() {			
 			@Override
 			public void execute() throws Throwable {
-				PasswordCheckerUtility.comparePasswords​(password, passwordConfirm);				
+				PasswordCheckerUtility.comparePasswords(password, passwordConfirm);				
 			}
 		});
 		
@@ -47,14 +47,14 @@ class PasswordCheckerTestPublic {
 	
 	@Test 
 	void testComparePasswordsWithReturn() {
-		assertFalse(PasswordCheckerUtility.comparePasswordsWithReturn​(password, passwordConfirm));
-		assertTrue(PasswordCheckerUtility.comparePasswordsWithReturn​(password, password));
+		assertFalse(PasswordCheckerUtility.comparePasswordsWithReturn(password, passwordConfirm));
+		assertTrue(PasswordCheckerUtility.comparePasswordsWithReturn(password, password));
 	}	
 	
 	@Test
 	void testUppereAlpha() {
 		try {
-			assertTrue(PasswordCheckerUtility.hasUpperAlpha​("Beautiful"));
+			assertTrue(PasswordCheckerUtility.hasUpperAlpha("Beautiful"));
 		} catch (NoUpperAlphaException e) {
 			e.printStackTrace();
 		}
@@ -65,7 +65,7 @@ class PasswordCheckerTestPublic {
 		Throwable exception = Assertions.assertThrows(LengthException.class, new Executable() {
 			@Override
 			public void execute() throws Throwable {
-				PasswordCheckerUtility.isValidLength​(password);
+				PasswordCheckerUtility.isValidLength(password);
 			}			
 		});
 		assertEquals("The password must be at least 6 characters long", exception.getMessage());

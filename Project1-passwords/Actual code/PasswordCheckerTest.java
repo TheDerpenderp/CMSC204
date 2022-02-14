@@ -42,7 +42,7 @@ public class PasswordCheckerTest {
 	public void testIsValidPasswordTooShort()
 	{
 		try{
-			assertTrue(PasswordCheckerUtility.isValidPassword​("abcAB"));
+			assertTrue(PasswordCheckerUtility.isValidPassword("abcAB"));
 			assertTrue("Did not throw lengthException",false);
 		}
 		catch(LengthException e)
@@ -64,7 +64,7 @@ public class PasswordCheckerTest {
 	public void testIsValidPasswordNoUpperAlpha()
 	{
 		try{
-			assertTrue(PasswordCheckerUtility.isValidPassword​("123456"));
+			assertTrue(PasswordCheckerUtility.isValidPassword("123456"));
 			 
 			assertTrue("Did not throw NoUpperAlphaException",false);
 		}
@@ -86,7 +86,7 @@ public class PasswordCheckerTest {
 	public void testIsValidPasswordNoLowerAlpha()
 	{
 		try{
-			assertTrue(PasswordCheckerUtility.isValidPassword​("123456A"));
+			assertTrue(PasswordCheckerUtility.isValidPassword("123456A"));
  
 			assertTrue("Did not throw NoLowerAlphaException",false);
 		}
@@ -130,7 +130,7 @@ public class PasswordCheckerTest {
 	public void testIsValidPasswordInvalidSequence()
 	{
 		try{
-			assertEquals(true,PasswordCheckerUtility.isValidPassword​("123@4aaAAA"));
+			assertEquals(true,PasswordCheckerUtility.isValidPassword("123@4aaAAA"));
 		 	assertTrue("Did not throw an InvalidSequenceException",false);
 		}
 		catch(InvalidSequenceException e)

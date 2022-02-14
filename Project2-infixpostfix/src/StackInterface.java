@@ -80,6 +80,6 @@ public interface StackInterface<T> {
 	  * @param list elements to be added to the Stack from bottom to top
 	  * @throws StackOverflowException if stack gets full
 	  */
-	public void fill(ArrayList<T> list);
+	public void fill(ArrayList<T> list) throws StackOverflowException;
  
 }

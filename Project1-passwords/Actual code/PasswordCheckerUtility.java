@@ -25,13 +25,13 @@ public class PasswordCheckerUtility {
 	 * @throws  LengthException, NoUpperAlphaException, NoLowerAlphaException, NoDigitException, NoSpecialCharacterException, InvalidSequenceException if any checks were not met
 	 */
 
-	public static boolean isValidPassword​(String password) throws LengthException, NoUpperAlphaException, NoLowerAlphaException, NoDigitException, NoSpecialCharacterException, InvalidSequenceException{
-		isValidLength​(password);
-		hasUpperAlpha​(password);
-		hasLowerAlpha​(password);
-		hasDigit​(password);
-		hasSpecialChar​(password);
-		NoSameCharInSequence​(password);
+	public static boolean isValidPassword(String password) throws LengthException, NoUpperAlphaException, NoLowerAlphaException, NoDigitException, NoSpecialCharacterException, InvalidSequenceException{
+		isValidLength(password);
+		hasUpperAlpha(password);
+		hasLowerAlpha(password);
+		hasDigit(password);
+		hasSpecialChar(password);
+		NoSameCharInSequence(password);
 
 		return true;
 	}
@@ -46,11 +46,11 @@ public class PasswordCheckerUtility {
 	public static boolean isWeakPassword(String string) throws WeakPasswordException{
 		boolean valid = false;
 		try {
-			valid = isValidPassword​(string);
+			valid = isValidPassword(string);
 		} catch (Exception e) {
 			return false;
 		}
-		if(valid&&hasBetweenSixAndNineChars​(string)){
+		if(valid&&hasBetweenSixAndNineChars(string)){
 			throw new WeakPasswordException("The password is OK but weak - it contains fewer than 10 characters");
 		}		
 		return false;
@@ -70,7 +70,7 @@ public class PasswordCheckerUtility {
 			toPut = s;
 			toPut+=" -> ";
 			try {
-				isValidPassword​(s);
+				isValidPassword(s);
 			} catch (Exception e) {
 				toPut+= e.getMessage();
 				toReturn.add(toPut);
@@ -114,7 +114,7 @@ public class PasswordCheckerUtility {
 	 * @return true they are equal
 	 * @throws  UnmatchedException if not equal
 	 */
-	public static void comparePasswords​(String password, String passwordConfirm) throws UnmatchedException{
+	public static void comparePasswords(String password, String passwordConfirm) throws UnmatchedException{
 		if(password.length()<passwordConfirm.length()) {
 			throw new UnmatchedException("Passwords do not match");
 		}
@@ -137,25 +137,24 @@ public class PasswordCheckerUtility {
 	 * @return true they are equal
 	 
 	 */
-
-	//assuming same as the first without the throw, only return
-	public static boolean comparePasswordsWithReturn​(String password, String passwordConfirm) {
-		if(password.length()<passwordConfirm.length()) {
+	public static boolean comparePasswordsWithReturn(String passwordString, String passwordAString) {
+		if(passwordString.length()<passwordAString.length()) {
 			return false;
 		}
-		else if (password.length()>passwordConfirm.length()) {
+		else if (passwordString.length()>passwordAString.length()) {
 
 			return false;
 		}
 
-		for(int i =0;i<password.length();i++) {
-			if(password.charAt(i)!= passwordConfirm.charAt(i))
+		for(int i =0;i<passwordString.length();i++) {
+			if(passwordString.charAt(i)!= passwordAString.charAt(i))
 				return false;
 
 		}
 
 		return true;
 	}
+	
 	/**
 	 * checks if a password is longer than 6 characters
 	 * @param password a user wants verified
@@ -163,7 +162,7 @@ public class PasswordCheckerUtility {
 	 * @throws  LengthException if not longer than 6 characters
 	 */
 	//must be at least 6 characters long
-	public static boolean isValidLength​(String password) throws LengthException{
+	public static boolean isValidLength(String password) throws LengthException{
 		if(password.length()>=6)
 			return true;
 		throw new LengthException("The password must be at least 6 characters long");
@@ -174,7 +173,7 @@ public class PasswordCheckerUtility {
 	 * @return true if has  uppercase letter
 	 * @throws  NoUpperAlphaException if no uppercase letter
 	 */
-	public static boolean hasUpperAlpha​(String password) throws NoUpperAlphaException{
+	public static boolean hasUpperAlpha(String password) throws NoUpperAlphaException{
 		Pattern pattern = Pattern.compile("[A-Z]");
 		Matcher matcher = pattern.matcher(password);
 		if(matcher.find()) {
@@ -189,7 +188,7 @@ public class PasswordCheckerUtility {
 	 * @return true if has  lowercase letter
 	 * @throws  NoLowerAlphaException if no lowercase letter
 	 */
-	public static boolean hasLowerAlpha​(String password) throws NoLowerAlphaException{
+	public static boolean hasLowerAlpha(String password) throws NoLowerAlphaException{
 		Pattern pattern = Pattern.compile("[a-z]");
 		Matcher matcher = pattern.matcher(password);
 		if(matcher.find()) {
@@ -205,7 +204,7 @@ public class PasswordCheckerUtility {
 	 * @return true if has  a digit
 	 * @throws  NoDigitException if no special character
 	 */
-	public static boolean hasDigit​(String password) throws NoDigitException{
+	public static boolean hasDigit(String password) throws NoDigitException{
 		Pattern pattern = Pattern.compile("[0-9]");
 		Matcher matcher = pattern.matcher(password);
 		if(matcher.find()) {
@@ -222,7 +221,7 @@ public class PasswordCheckerUtility {
 	 * @return true if has  a special character
 	 * @throws  NoSpecialCharacterException if no special character
 	 */
-	public static boolean hasSpecialChar​(String password) throws NoSpecialCharacterException{
+	public static boolean hasSpecialChar(String password) throws NoSpecialCharacterException{
 		Pattern pattern = Pattern.compile("[^a-zA-Z0-9]");
 		Matcher matcher = pattern.matcher(password);
 		if(matcher.find()) {
@@ -239,7 +238,7 @@ public class PasswordCheckerUtility {
 	 * @return true if it doe not have more than two in a sequence
 	 * @throws  InvalidSequenceException if the password has more than two of the same character in a sequence
 	 */
-	public static boolean NoSameCharInSequence​(String password) throws InvalidSequenceException{
+	public static boolean NoSameCharInSequence(String password) throws InvalidSequenceException{
 		//first plan of action, go over everything in the string, if curr letter is equalk to the previous, then we shall throw the error
 		//relies on the fact that it is longer than 2 characters
 		boolean hasBeenTwo = false;
@@ -268,10 +267,11 @@ public class PasswordCheckerUtility {
 	 * @param password a user wants verified
 	 * @return true if it is between 6-9, false otherwise
 	 */
-	public static boolean hasBetweenSixAndNineChars​(String password) {
+	public static boolean hasBetweenSixAndNineChars(String password) {
 
 		return ((password.length()>=6)&&(password.length()<=9));
 
 	}
+
 
 }

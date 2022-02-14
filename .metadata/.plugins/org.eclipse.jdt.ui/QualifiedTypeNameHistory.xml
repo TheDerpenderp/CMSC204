@@ -5,5 +5,8 @@
     <fullyQualifiedTypeName name="GenericInterfaceImplementation"/>
     <fullyQualifiedTypeName name="BagInterface"/>
     <fullyQualifiedTypeName name="FixedSizeArrayBag"/>
+    <fullyQualifiedTypeName name="Measurable"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="MyQueue.node"/>
+    <fullyQualifiedTypeName name="MyStack"/>
 </qualifiedTypeNameHistroy>
