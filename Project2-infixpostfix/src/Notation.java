@@ -12,8 +12,90 @@ public class Notation {
 
 
 	public static double evaluatePostfixExpression(String postfixExpr) throws InvalidNotationFormatException{
-		return 0;
+		MyStack<String> theStack;
 
+
+
+		Pattern patternNum = Pattern.compile("[0-9, (]");
+
+		Pattern patternOp = Pattern.compile("[+,\\-,*,\\/]");
+		Matcher matcher;
+		Matcher matcherNum;
+
+		char[] postArr = postfixExpr.toCharArray();
+		int indexAt = 0;
+
+
+		theStack = new MyStack<String>(postArr.length);
+		while (indexAt!=postArr.length) {
+			matcher = patternOp.matcher(postArr[indexAt]+"");
+			matcherNum = patternNum.matcher(postArr[indexAt]+"");
+
+			if(postArr[indexAt] != ' ') {
+
+				if(matcherNum.find()) {
+					try {
+						theStack.push(postArr[indexAt]+"");
+					} catch (StackOverflowException e) {
+						throw new InvalidNotationFormatException();
+					}
+
+				}
+				else if(matcher.find()) {
+
+					String thing1 = "";
+					String thing2 = "";
+					String res = "";
+					try {
+						thing1 += theStack.pop();
+						thing2+= theStack.pop();
+					} catch (StackUnderflowException e) {
+						throw new InvalidNotationFormatException();
+					}
+					//find what operator
+					if(postArr[indexAt] == '*') {
+						res +=(Double.parseDouble(thing2)*Double.parseDouble(thing1));
+
+					}
+					else if(postArr[indexAt] == '/') {
+						res +=(Double.parseDouble(thing2)/Double.parseDouble(thing1));
+
+					}
+					else if(postArr[indexAt] == '-') {
+						res +=(Double.parseDouble(thing2)-Double.parseDouble(thing1));
+
+					}
+					else {
+						res +=(Double.parseDouble(thing2)+Double.parseDouble(thing1));
+
+					}
+					try {
+						theStack.push(res);
+					} catch (StackOverflowException e) {
+						throw new InvalidNotationFormatException();
+					}
+				}
+
+
+
+			}
+
+			indexAt++;
+
+
+		}
+		
+		double toRet;
+		
+		try {
+			toRet = Double.parseDouble(theStack.pop());
+		} catch (NumberFormatException e) {
+			throw new InvalidNotationFormatException();
+		} catch (StackUnderflowException e) {
+			throw new InvalidNotationFormatException();
+		}
+		
+		return toRet;
 
 	}
 
@@ -108,7 +190,7 @@ public class Notation {
 
 		Pattern patternOp = Pattern.compile("[+,\\-,*,\\/]");
 		Matcher matcher;
-
+		Matcher matcherNum;
 
 		char[] inArr = infix.toCharArray();
 		int indexAt = 0;
@@ -121,9 +203,9 @@ public class Notation {
 
 		while (indexAt!=inArr.length) {
 			matcher = patternOp.matcher(inArr[indexAt]+"");
-
+			matcherNum = patternNum.matcher(inArr[indexAt]+"");
 			if(inArr[indexAt] != ' ') {
-				if(matcher.find()) {
+				if(matcherNum.find()) {
 					try {
 						theQueue.enqueue((inArr[indexAt]+""));
 					} catch (QueueOverflowException e) {
@@ -136,12 +218,12 @@ public class Notation {
 					try {
 						theStack.push(inArr[indexAt]+"");
 					} catch (StackOverflowException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
+						throw new InvalidNotationFormatException();
 					}
 
 
 				}
+
 				//do the operators
 				else {
 
@@ -150,50 +232,84 @@ public class Notation {
 					if(matcher.find()) {
 						//pop operators in presidence
 						//check if mult div
-						String theOP = "";
-						boolean isGreater = true;
-						while(isGreater) {
+						try {
+							matcher = patternOp.matcher(theStack.top()+"");
+						} catch (StackUnderflowException e1) {
+							throw new InvalidNotationFormatException();
+						}
+						if(matcher.find()) {
+
+							String theOP = "";
+							boolean isGreater = true;
+							while(isGreater) {
+								try {
+									theOP = theStack.pop();
+								} catch (StackUnderflowException e) {
+									throw new InvalidNotationFormatException();
+								}
+								if((theOP.equals("*")&&inArr[indexAt]=='/')||(theOP.equals("/")&&inArr[indexAt]=='/')||(theOP.equals("/")&&inArr[indexAt]=='*')||(theOP.equals("*")&&inArr[indexAt]=='*')) {
+									try {
+										theQueue.enqueue(theOP);
+									} catch (QueueOverflowException e) {
+
+									}
+
+								}
+
+
+								//now check if equal to +-, if not then give up
+								else if((theOP.equals("+")&&inArr[indexAt]=='-')||(theOP.equals("+")&&inArr[indexAt]=='+')||(theOP.equals("-")&&inArr[indexAt]=='-')||(theOP.equals("-")&&inArr[indexAt]=='+')){
+									try {
+										theQueue.enqueue(theOP);
+									} catch (QueueOverflowException e) {
+										throw new InvalidNotationFormatException();
+									}
+
+								}
+								else {
+									isGreater = false;
+									try {
+										theStack.push(inArr[indexAt]+"");
+									} catch (StackOverflowException e) {
+										throw new InvalidNotationFormatException();
+									}
+								}
+
+							}
+
+						}
+						else {
+
 							try {
-								theOP = theStack.pop();
-							} catch (StackUnderflowException e) {
-								// TODO Auto-generated catch block
-								e.printStackTrace();
+								theStack.push(inArr[indexAt]+"");
+							} catch (StackOverflowException e) {
+								throw new InvalidNotationFormatException();
 							}
-							if((theOP.equals("*")&&inArr[indexAt]=='/')||(theOP.equals("/")&&inArr[indexAt]=='/')||(theOP.equals("/")&&inArr[indexAt]=='*')||(theOP.equals("*")&&inArr[indexAt]=='*')) {
-								try {
-									theQueue.enqueue(theOP);
-								} catch (QueueOverflowException e) {
 
-								}
 
-							}
-							
-							
-							//now check if equal to +-, if not then give up
-							else if((theOP.equals("+")&&inArr[indexAt]=='-')||(theOP.equals("+")&&inArr[indexAt]=='+')||(theOP.equals("-")&&inArr[indexAt]=='-')||(theOP.equals("-")&&inArr[indexAt]=='+')){
-								try {
-									theQueue.enqueue(theOP);
-								} catch (QueueOverflowException e) {
-									// TODO Auto-generated catch block
-									e.printStackTrace();
-								}
-
-							}
-							else if ((theOP.equals("*")&&theOP.equals("/"))) {
-								
-								
-								
-							}
-							else {
-								//not equal or higher
-								
-							}
-							
 						}
 
 					}
 					else if(inArr[indexAt] ==')') {
+						String top = "";
+						try {
+							top = theStack.pop();
+						} catch (StackUnderflowException e) {
+							throw new InvalidNotationFormatException();
+						}
+						while(!top.equals("(")) {
 
+							try {
+								theQueue.enqueue(top);
+							} catch (QueueOverflowException e) {
+								throw new InvalidNotationFormatException();
+							}
+							try {
+								top = theStack.pop();
+							} catch (StackUnderflowException e) {
+								throw new InvalidNotationFormatException();
+							}
+						}
 
 
 					}
@@ -209,11 +325,19 @@ public class Notation {
 			}
 			indexAt++;
 		}
+		String toRet = "";
+		while(!theQueue.isEmpty()) {
+
+			try {
+				toRet+=theQueue.dequeue();
+			} catch (QueueUnderflowException e) {
+				throw new InvalidNotationFormatException();
+			}
+
+		}
 
 
-
-
-		return infix;
+		return toRet;
 
 
 

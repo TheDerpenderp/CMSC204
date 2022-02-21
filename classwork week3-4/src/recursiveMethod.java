@@ -1,8 +1,13 @@
+import java.util.ArrayList;
 
 public class recursiveMethod {
 
 	public static void main(String[] args) {
 		sumOf(10);
+		int num = 9/0;
+		
+		
+		
 		
 		System.out.println(reverse("hello there"));
 	}
