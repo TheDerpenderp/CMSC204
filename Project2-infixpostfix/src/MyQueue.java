@@ -110,14 +110,24 @@ public class MyQueue<T> implements QueueInterface<T>{
 			
 			curr = curr.next;
 		}
-		
+		toRet = toRet.substring(0,toRet.length()-1);
 		
 		return toRet;
 	}
 
 	@Override
-	public void fill(ArrayList list) {
-		// TODO Auto-generated method stub
+	public void fill(ArrayList<T> list) {
+		maxCap = list.size();
+		while(maxSize!=maxCap) {
+			
+			try {
+				enqueue(list.get(maxSize));
+			} catch (QueueOverflowException e) {
+				
+				
+			}
+			
+		}
 		
 	}
 	

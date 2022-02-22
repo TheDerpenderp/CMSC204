@@ -1,6 +1,11 @@
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.regex.*;
 
+/**
+
+@author Konstantin T
+ this class will take in a postfix or infix and convert it into the other
+
+*/
 public class Notation {
 
 
@@ -10,6 +15,16 @@ public class Notation {
 
 	}
 
+	
+	
+	
+	/**
+	 evaluates a postfix expression
+	@param a string in postfix
+	
+	@return a value calculated from the postfix notation
+	
+	*/
 
 	public static double evaluatePostfixExpression(String postfixExpr) throws InvalidNotationFormatException{
 		MyStack<String> theStack;
@@ -99,6 +114,13 @@ public class Notation {
 
 	}
 
+	/**
+	converts postfix expression to infix
+	@param a string in postfix
+	
+	@return an equivalent infix expression
+	
+	*/
 	public static String convertPostfixToInfix(String postfix) throws InvalidNotationFormatException{
 		MyStack<String> theStack;
 		//hokay, its time to parse the string, and do things to it to make it normal
@@ -180,7 +202,13 @@ public class Notation {
 
 
 	}
-
+	/**
+	converts infix expression to postfix 
+	@param a string in infix
+	
+	@return an equivalent postfix expression
+	
+	*/
 	public static String convertInfixToPostfix(String infix) throws InvalidNotationFormatException{
 		MyStack<String> theStack;
 		MyQueue<String> theQueue;

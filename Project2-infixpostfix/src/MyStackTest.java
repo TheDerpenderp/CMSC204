@@ -40,7 +40,7 @@ public class MyStackTest {
 	}
 
 	@Test
-	public void testIsEmpty() {
+	public void testIsEmpty() throws StackUnderflowException {
 		assertEquals(false,stringS.isEmpty());
 		stringS.pop();
 		stringS.pop();
@@ -49,7 +49,7 @@ public class MyStackTest {
 	}
 
 	@Test
-	public void testIsFull() {
+	public void testIsFull() throws StackOverflowException {
 		assertEquals(false, stringS.isFull());
 		stringS.push(d);
 		stringS.push(e);
@@ -76,12 +76,25 @@ public class MyStackTest {
 
 	@Test
 	public void testPopStudent() {
-		//Use the doubleQ for student tests
-		fail("Not yet implemented");
+		try {
+			assertEquals("3.2", doubleS.pop()+"");
+			assertEquals("2.1", doubleS.pop()+"");
+			assertEquals("1.0", doubleS.pop()+"");
+			//Queue is empty, next statement should cause QueueUnderFlowException
+			doubleS.pop();
+			assertTrue("This should have caused an StackUnderflowException", false);
+		}
+		catch (StackUnderflowException e){
+			assertTrue("This should have caused an StackUnderflowException", true);
+		}
+		catch (Exception e){
+			assertTrue("This should have caused an StackUnderflowException", false);
+		}
+		
 	}
 	
 	@Test
-	public void testTop() {
+	public void testTop() throws StackUnderflowException, StackOverflowException {
 		assertEquals(c, stringS.top());
 		stringS.push(d);
 		assertEquals(d, stringS.top());
@@ -91,7 +104,7 @@ public class MyStackTest {
 	}
 
 	@Test
-	public void testSize() {
+	public void testSize() throws StackUnderflowException, StackOverflowException {
 		assertEquals(3, stringS.size());
 		stringS.push(d);
 		assertEquals(4, stringS.size());
@@ -122,12 +135,18 @@ public class MyStackTest {
 
 	@Test
 	public void testPushStudent() {
-		//Use the doubleQ for student tests
-		fail("Not yet implemented");
+		assertEquals(3, stringS.size());
+		try {
+			assertEquals(true, doubleS.push(4.3));
+		} catch (StackOverflowException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		assertEquals(4, stringS.size());
 	}
 	
 	@Test
-	public void testToString() {
+	public void testToString() throws StackOverflowException {
 		assertEquals("abc", stringS.toString());
 		stringS.push(d);
 		assertEquals("abcd", stringS.toString());
@@ -142,7 +161,7 @@ public class MyStackTest {
 	}
 	
 	@Test
-	public void testToStringDelimiter() {
+	public void testToStringDelimiter() throws StackOverflowException{
 		assertEquals("a%b%c", stringS.toString("%"));
 		stringS.push(d);
 		assertEquals("a&b&c&d", stringS.toString("&"));
@@ -151,7 +170,7 @@ public class MyStackTest {
 	}
 
 	@Test
-	public void testFill() {
+	public void testFill() throws StackOverflowException, StackUnderflowException {
 		fill.add("apple");
 		fill.add("banana");
 		fill.add("carrot");

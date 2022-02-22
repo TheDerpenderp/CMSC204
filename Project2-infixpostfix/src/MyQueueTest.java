@@ -19,11 +19,16 @@ public class MyQueueTest {
 	@Before
 	public void setUp() throws Exception {
 		stringQ = new MyQueue<String>(5);
+		doubleQ = new MyQueue<Double>(5);
 		stringQ.enqueue(a);
 		stringQ.enqueue(b);
 		stringQ.enqueue(c);
 		
 		//STUDENT: add setup for doubleQ for student tests
+		doubleQ.enqueue(1.0);
+		doubleQ.enqueue(3.0);
+		doubleQ.enqueue(4.0);
+	
 	}
 
 	@After
@@ -61,8 +66,20 @@ public class MyQueueTest {
 	
 	@Test
 	public void testDequeueStudent() {
-		//Use the doubleQ for student tests
-		fail("Not yet implemented");
+		try {
+			assertEquals("1.0", doubleQ.dequeue()+"");
+			assertEquals("3.0", doubleQ.dequeue()+"");
+			assertEquals("4.0", doubleQ.dequeue()+"");
+			//Queue is empty, next statement should cause QueueUnderFlowException
+			doubleQ.dequeue();
+			assertTrue("This should have caused an QueueUnderflowException", false);
+		}
+		catch (QueueUnderflowException e){
+			assertTrue("This should have caused an QueueUnderflowException", true);
+		}
+		catch (Exception e){
+			assertTrue("This should have caused an QueueUnderflowException", false);
+		}
 	}
 
 	@Test
@@ -97,8 +114,22 @@ public class MyQueueTest {
 
 	@Test
 	public void testEnqueueStudent() {
-		//Use the doubleQ for student tests
-		fail("Not yet implemented");
+		try {
+			assertEquals(3, doubleQ.size());
+			assertEquals(true, doubleQ.enqueue(5.0));
+			assertEquals(4, doubleQ.size());
+			assertEquals(true, doubleQ.enqueue(6.0));
+			assertEquals(5, doubleQ.size());
+			//Queue is full, next statement should cause QueueOverFlowException
+			doubleQ.enqueue(7.0);
+			assertTrue("This should have caused an QueueOverflowException", false);
+		}
+		catch (QueueOverflowException e){
+			assertTrue("This should have caused an QueueOverflowException", true);
+		}
+		catch (Exception e){
+			assertTrue("This should have caused an QueueOverflowException", false);
+		}
 	}
 
 	@Test
@@ -120,8 +151,7 @@ public class MyQueueTest {
 	
 	@Test
 	public void testToStringStudent() {
-		//Use the doubleQ for student tests
-		fail("Not yet implemented");
+		assertEquals("1.0 3.0 4.0", doubleQ.toString(" "));
 	}
 
 	@Test
