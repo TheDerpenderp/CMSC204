@@ -2168,3 +2168,1614 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-02-21 22:54:21.161
 !MESSAGE Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+!SESSION 2022-02-23 13:46:34.809 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-02-23 13:46:53.587
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-23 13:46:53.587
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6c46dc02,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5606d537,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-02-23 13:47:01.492
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Konstantin T'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-02-23 13:47:05.197
+!MESSAGE Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+!SESSION 2022-02-24 22:59:21.489 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-02-24 22:59:43.767
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-24 22:59:43.767
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@59831016,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@37f71e8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY mergedoc.encoding 2 0 2022-02-24 22:59:48.843
+!MESSAGE Resource '/In class exercises/generics/BasicArrayList.java' does not exist.
+
+!ENTRY mergedoc.encoding 2 0 2022-02-24 22:59:48.845
+!MESSAGE Resource '/In class exercises/generics/BasicArrayList.java' does not exist.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-02-24 22:59:50.385
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Konstantin T'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-02-24 22:59:54.207
+!MESSAGE Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+!SESSION 2022-02-27 12:38:04.639 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-02-27 12:38:22.667
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-27 12:38:22.667
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@397dfbe8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@783f5f71,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-02-27 12:38:27.872
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Konstantin T'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-02-27 12:38:32.733
+!MESSAGE Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+!SESSION 2022-02-28 12:02:05.799 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-02-28 12:02:24.230
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-28 12:02:24.230
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@63b0b3dd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@397dfbe8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-02-28 12:02:29.356
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Konstantin T'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-02-28 12:02:33.413
+!MESSAGE Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 14:17:26.109
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 14:17:32.467
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 14:18:46.575
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 14:20:43.052
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 14:22:53.194
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 21:26:28.542
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 21:29:39.270
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 21:34:46.041
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 21:34:54.419
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 21:37:20.824
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 21:38:24.939
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 21:47:51.903
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 21:48:17.762
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 21:48:47.922
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 21:52:54.420
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 21:53:26.382
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 21:53:35.887
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 21:57:50.562
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 22:05:33.372
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 22:06:27.359
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-02-28 22:11:16.746
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+!SESSION 2022-03-02 10:59:15.542 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-03-02 10:59:34.312
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-02 10:59:34.312
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3791af,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66fff42f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-03-02 10:59:39.008
+!MESSAGE Exception occurred during problem detection:
+----------------------------------- SOURCE BEGIN -------------------------------------
+import java.util.*;
+
+
+public class BasicDoubleLinkedList<T> implements Iterable<T>{
+
+
+	private int listSize;
+	public Node<T> listStart;
+	public Node<T> listEnd;
+
+
+
+	public BasicDoubleLinkedList() {
+		listEnd = null;
+		listStart = null;
+		listSize = 0;
+	}
+
+	public void addToFront(T toAdd) {
+		if(listStart == null) {
+			listStart = new Node( null, toAdd, null);
+			listEnd = listStart;
+		}
+		else {
+
+			listStart = new Node( null, toAdd, listStart);
+			listStart.next.prev = listStart;
+		}
+		listSize++;
+
+
+
+	}
+
+	public void addToEnd(T toAdd) {
+		if(listStart == null) {
+			listEnd = new Node(null, toAdd, null);
+			listStart = listEnd;
+
+		}
+		else {
+			listEnd = new Node(listEnd, toAdd, null);
+			listEnd.prev.next = listEnd;
+
+		}
+		listSize++;
+
+
+	}
+
+	public int getSize() {
+
+		return listSize;
+	}
+	public T getLast() {
+
+		return listEnd.data;
+	}
+
+
+	public T getFirst() {
+
+		return  listStart.data;
+	}
+
+
+
+	public ArrayList<T> toArrayList() {
+
+		if(listStart == null) {
+			return new ArrayList<T>();
+		}
+		Node currNode = listStart;
+		ArrayList<T> toReturn = new ArrayList<T>();
+		
+		for (T mine : this) {
+			
+			toReturn.add(mine);
+			
+		}
+		return toReturn;
+	}
+
+
+
+
+	public T retrieveFirstElement() {
+		if(listStart == null)
+			return null;
+
+		else if((listStart==listEnd)&&listSize == 1) {
+			T toRemove =listStart.data;
+			listStart = null;
+			listEnd = null;
+			listSize--;
+			return toRemove;
+		}
+
+		Node toRemove = listStart;
+		listStart = listStart.next;
+		listStart.prev=null;
+		
+		listSize--;
+		return (T) toRemove.data;
+	}
+
+	public  T retrieveLastElement() {
+		if(listEnd == null)
+			return null;
+
+		else if((listStart==listEnd)&&listSize == 1) {
+			T toRemove =listEnd.data;
+			listStart = null;
+			listEnd = null;
+			listSize--;
+			return toRemove;
+		}
+
+		Node toRemove =listEnd;
+		listEnd = listEnd.prev;
+		listEnd.next = null;
+		
+		listSize--;
+		return (T) toRemove.data;
+	}
+
+	public void remove(T a, Comparator<T> comparator) {
+		if(listSize == 0)
+			throw new NoSuchElementException();
+		else if(comparator.compare(listStart.data, a)==0)
+			retrieveFirstElement();
+
+		else if(comparator.compare(listEnd.data, a)==0)
+			retrieveLastElement();
+
+		else {
+
+			Node currNode = listStart;
+			
+			while(comparator.compare((T)currNode.data, a)!=0){
+				currNode = currNode.next;
+
+			}
+			if(currNode == null)
+				throw new NoSuchElementException();
+			currNode.prev.next = currNode.next;
+			currNode.next.prev= currNode.prev;
+
+			currNode.prev = null;
+			currNode.next = null;
+			listSize--;
+		}
+
+		
+
+	}
+
+
+	private class Node<T>{
+
+		private T data;
+
+		private Node<T> next;
+		private Node<T> prev;
+
+
+		public Node(Node prev, T data, Node next) {
+			this.data = data;
+			this.prev =prev;
+			this.next =next;
+
+		}
+
+
+
+
+
+	}
+
+
+	public ListIterator<T> iterator() {
+
+		return new ListIterator <T>() {
+			private Node iteratorLoc = listStart;
+
+			
+			public void add(T e) throws UnsupportedOperationException{
+				throw new UnsupportedOperationException();
+
+			}
+
+			
+			public boolean hasNext() {
+				return iteratorLoc != null;
+			}
+
+			
+			public boolean hasPrevious() {
+				if((iteratorLoc==null))
+					return true; 
+				return (listStart!=null)&&(iteratorLoc.prev != null);
+
+			}
+
+			
+			public T next() {
+
+				if(hasNext() == false)
+					throw new NoSuchElementException();
+
+				T toReturn = (T)iteratorLoc.data;
+				iteratorLoc = iteratorLoc.next;
+
+
+				return toReturn;
+			}
+
+			
+			public int nextIndex() throws  UnsupportedOperationException{
+				throw new UnsupportedOperationException();
+			}
+
+			
+			public T previous() {
+				if(hasPrevious() == false)
+					throw new NoSuchElementException();
+
+				else if((iteratorLoc==null)) {
+					iteratorLoc = listEnd;
+				}
+
+				else 
+					iteratorLoc = iteratorLoc.prev;
+
+				return (T)iteratorLoc.data;
+			}
+
+			
+			public int previousIndex() throws UnsupportedOperationException{
+				throw new UnsupportedOperationException();
+			}
+
+			
+			public void remove() throws UnsupportedOperationException{
+				throw new UnsupportedOperationException();
+
+			}
+
+			
+			public void set(T e) throws UnsupportedOperationException{
+				throw new UnsupportedOperationException();
+
+			}
+
+
+		};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.List.contains(Object)" because "list" is null
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.cachePackage(JRTUtil.java:626)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem$2.visitFile(JRTUtil.java:608)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem$2.visitFile(JRTUtil.java:1)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2804)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2876)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(JRTUtil.java:579)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:173)
+	at org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.computeChildren(JrtPackageFragmentRoot.java:69)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.buildStructure(PackageFragmentRoot.java:165)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)
+	at org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)
+	at org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:816)
+	at org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:838)
+	at org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:814)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:761)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1070)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1015)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:992)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:505)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:2100)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2823)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:93)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:123)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:32)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:253)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:346)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:193)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.initialReconcile(JavaReconcilingStrategy.java:188)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:125)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:139)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:98)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:419)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2022-03-02 10:59:39.010
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 1
+Java Model Exception: java.lang.NullPointerException: Cannot invoke "java.util.List.contains(Object)" because "list" is null
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:324)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:346)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:193)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.initialReconcile(JavaReconcilingStrategy.java:188)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:125)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:139)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:98)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:419)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.contains(Object)" because "list" is null
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.cachePackage(JRTUtil.java:626)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem$2.visitFile(JRTUtil.java:608)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem$2.visitFile(JRTUtil.java:1)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2804)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2876)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(JRTUtil.java:579)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:173)
+	at org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.computeChildren(JrtPackageFragmentRoot.java:69)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.buildStructure(PackageFragmentRoot.java:165)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)
+	at org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)
+	at org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:816)
+	at org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:838)
+	at org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:814)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:761)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1070)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1015)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:992)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:505)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:2100)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2823)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:93)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:123)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:32)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:253)
+	... 17 more
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.contains(Object)" because "list" is null
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.cachePackage(JRTUtil.java:626)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem$2.visitFile(JRTUtil.java:608)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem$2.visitFile(JRTUtil.java:1)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2804)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2876)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(JRTUtil.java:579)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:173)
+	at org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.computeChildren(JrtPackageFragmentRoot.java:69)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.buildStructure(PackageFragmentRoot.java:165)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)
+	at org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)
+	at org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:816)
+	at org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:838)
+	at org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:814)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:761)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1070)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1015)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:992)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:505)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:2100)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2823)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:93)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:123)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:32)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:253)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:346)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:193)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.initialReconcile(JavaReconcilingStrategy.java:188)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:125)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:139)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:98)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:419)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1005 2022-03-02 10:59:39.011
+!MESSAGE Cannot invoke "java.util.List.contains(Object)" because "list" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.List.contains(Object)" because "list" is null
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.cachePackage(JRTUtil.java:626)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem$2.visitFile(JRTUtil.java:608)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem$2.visitFile(JRTUtil.java:1)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2804)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2876)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(JRTUtil.java:579)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:173)
+	at org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.computeChildren(JrtPackageFragmentRoot.java:69)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.buildStructure(PackageFragmentRoot.java:165)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)
+	at org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)
+	at org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:816)
+	at org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:838)
+	at org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:814)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:761)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1070)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1015)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:992)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:505)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:2100)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2823)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:93)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:123)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:32)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:253)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:346)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:193)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.initialReconcile(JavaReconcilingStrategy.java:188)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:125)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:139)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:98)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:419)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1005 2022-03-02 10:59:39.012
+!MESSAGE Cannot invoke "java.util.List.contains(Object)" because "list" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.List.contains(Object)" because "list" is null
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.cachePackage(JRTUtil.java:626)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem$2.visitFile(JRTUtil.java:608)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem$2.visitFile(JRTUtil.java:1)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2804)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2876)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(JRTUtil.java:579)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:173)
+	at org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.computeChildren(JrtPackageFragmentRoot.java:69)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.buildStructure(PackageFragmentRoot.java:165)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)
+	at org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)
+	at org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:816)
+	at org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:838)
+	at org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:814)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:761)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1070)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1015)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:992)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:505)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:2100)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2823)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:93)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:123)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:32)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:253)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:346)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:193)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.initialReconcile(JavaReconcilingStrategy.java:188)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:125)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:139)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:98)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:419)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2022-03-02 10:59:39.013
+!MESSAGE Error in JDT Core during reconcile
+!STACK 1
+Java Model Exception: java.lang.NullPointerException: Cannot invoke "java.util.List.contains(Object)" because "list" is null
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:324)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:346)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:193)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.initialReconcile(JavaReconcilingStrategy.java:188)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:125)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:139)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:98)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:419)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.contains(Object)" because "list" is null
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.cachePackage(JRTUtil.java:626)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem$2.visitFile(JRTUtil.java:608)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem$2.visitFile(JRTUtil.java:1)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2804)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2876)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(JRTUtil.java:579)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:173)
+	at org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.computeChildren(JrtPackageFragmentRoot.java:69)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.buildStructure(PackageFragmentRoot.java:165)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)
+	at org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)
+	at org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:816)
+	at org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:838)
+	at org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:814)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:761)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1070)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1015)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:992)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:505)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:2100)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2823)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:93)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:123)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:32)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:253)
+	... 17 more
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.contains(Object)" because "list" is null
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.cachePackage(JRTUtil.java:626)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem$2.visitFile(JRTUtil.java:608)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem$2.visitFile(JRTUtil.java:1)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2804)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2876)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(JRTUtil.java:579)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:173)
+	at org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.computeChildren(JrtPackageFragmentRoot.java:69)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.buildStructure(PackageFragmentRoot.java:165)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)
+	at org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)
+	at org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:816)
+	at org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:838)
+	at org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:814)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:761)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1070)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1015)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:992)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:505)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:2100)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2823)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:93)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:123)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:32)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:253)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:346)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:193)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.initialReconcile(JavaReconcilingStrategy.java:188)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:125)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:139)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:98)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:419)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1005 2022-03-02 10:59:39.014
+!MESSAGE Cannot invoke "java.util.List.contains(Object)" because "list" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.List.contains(Object)" because "list" is null
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.cachePackage(JRTUtil.java:626)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem$2.visitFile(JRTUtil.java:608)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem$2.visitFile(JRTUtil.java:1)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2804)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2876)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(JRTUtil.java:579)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:173)
+	at org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.computeChildren(JrtPackageFragmentRoot.java:69)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.buildStructure(PackageFragmentRoot.java:165)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)
+	at org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)
+	at org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:816)
+	at org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:838)
+	at org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:814)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:761)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1070)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1015)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:992)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:505)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:2100)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2823)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:93)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:123)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:32)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:253)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:346)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:193)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.initialReconcile(JavaReconcilingStrategy.java:188)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:125)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:139)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:98)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:419)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-02 10:59:39.695
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Konstantin T'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-02 10:59:43.509
+!MESSAGE Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 11:02:48.223
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 11:03:48.127
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 11:03:58.466
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 11:13:30.887
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 11:14:19.422
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 11:20:34.704
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 11:25:19.774
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 11:25:24.659
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 11:25:54.204
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 11:39:05.284
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 11:45:11.404
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 11:46:30.136
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 11:47:33.385
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 11:50:04.595
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 11:51:32.036
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 11:51:40.829
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 11:53:34.367
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 12:01:27.714
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 12:03:47.576
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 12:04:19.536
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 12:05:05.009
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 12:05:24.985
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 12:08:55.727
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 12:10:22.024
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 12:11:39.669
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 12:14:31.407
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 12:14:38.535
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 12:15:14.280
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-02 14:00:22.228
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+!SESSION 2022-03-07 10:13:27.632 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-03-07 10:13:45.590
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-07 10:13:45.590
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3731e8b6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@565efd7d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-07 10:13:49.687
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Konstantin T'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-07 10:13:53.848
+!MESSAGE Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-07 23:05:36.259
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-07 23:11:01.728
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+!SESSION 2022-03-21 13:48:33.486 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-03-21 13:48:48.990
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-21 13:48:48.990
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66fff42f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@308be1a3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-21 13:48:53.325
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Konstantin T'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-21 13:48:56.960
+!MESSAGE Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-21 14:03:12.158
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-21 14:04:12.662
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-21 14:04:13.070
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-21 14:04:23.438
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-21 14:05:47.247
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-21 14:14:24.134
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-21 14:16:58.441
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-21 14:38:29.607
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-21 14:47:23.381
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-21 14:48:16.565
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY mergedoc.encoding 2 0 2022-03-21 23:06:34.731
+!MESSAGE Resource '/Project 4/src/FXMainPane.java' does not exist.
+
+!ENTRY mergedoc.encoding 2 0 2022-03-21 23:06:34.732
+!MESSAGE Resource '/Project 4/src/FXMainPane.java' does not exist.
+
+!ENTRY mergedoc.encoding 2 0 2022-03-21 23:06:35.653
+!MESSAGE Resource '/Project 4/src/CourseDBElement.java' does not exist.
+
+!ENTRY mergedoc.encoding 2 0 2022-03-21 23:06:35.653
+!MESSAGE Resource '/Project 4/src/CourseDBElement.java' does not exist.
+
+!ENTRY mergedoc.encoding 2 0 2022-03-21 23:06:35.829
+!MESSAGE Resource '/Project 4/src/CourseDBManager.java' does not exist.
+
+!ENTRY mergedoc.encoding 2 0 2022-03-21 23:06:35.830
+!MESSAGE Resource '/Project 4/src/CourseDBManager.java' does not exist.
+
+!ENTRY org.eclipse.ui 4 0 2022-03-21 23:17:15.708
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.jdt.internal.corext.fix.LinkedProposalPositionGroupCore cannot be cast to class org.eclipse.jdt.internal.corext.fix.LinkedProposalPositionGroup (org.eclipse.jdt.internal.corext.fix.LinkedProposalPositionGroupCore is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @45f1c6d7; org.eclipse.jdt.internal.corext.fix.LinkedProposalPositionGroup is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @42c1209b)
+	at org.eclipse.jdt.internal.corext.fix.LinkedProposalModel$LinkedProposalPositionGroupIterator.next(LinkedProposalModel.java:47)
+	at org.eclipse.jdt.internal.corext.fix.LinkedProposalModel$LinkedProposalPositionGroupIterator.next(LinkedProposalModel.java:1)
+	at org.eclipse.jdt.internal.ui.viewsupport.LinkedProposalModelPresenter.enterLinkedMode(LinkedProposalModelPresenter.java:75)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.LinkedCorrectionProposal.performChange(LinkedCorrectionProposal.java:161)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.apply(CUCorrectionProposal.java:167)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.FixCorrectionProposal.apply(FixCorrectionProposal.java:181)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.apply(AbstractAnnotationHover.java:556)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.access$1(AbstractAnnotationHover.java:538)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl$4.widgetSelected(AbstractAnnotationHover.java:532)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4195)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1078)
+	at org.eclipse.swt.widgets.Link.wmNotifyChild(Link.java:713)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5813)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1950)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5381)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4815)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4921)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Link.callWindowProc(Link.java:161)
+	at org.eclipse.swt.widgets.Widget.wmLButtonUp(Widget.java:1964)
+	at org.eclipse.swt.widgets.Control.WM_LBUTTONUP(Control.java:5194)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4796)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4913)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3610)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:153)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SESSION 2022-03-23 13:35:35.902 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-03-23 13:35:52.940
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-23 13:35:52.941
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5265a8dd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5af4328e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-23 13:36:00.577
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Konstantin T'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-23 13:36:04.324
+!MESSAGE Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+
+!ENTRY mergedoc.encoding 2 0 2022-03-23 13:38:33.364
+!MESSAGE Resource '/sets and maps/src/Classwork2TreeSets.java' does not exist.
+
+!ENTRY mergedoc.encoding 2 0 2022-03-23 13:38:33.365
+!MESSAGE Resource '/sets and maps/src/Classwork2TreeSets.java' does not exist.
+
+!ENTRY mergedoc.encoding 2 0 2022-03-23 13:38:33.365
+!MESSAGE Resource '/sets and maps/src/Classwork2TreeSets.java' does not exist.
+
+!ENTRY mergedoc.encoding 2 0 2022-03-23 13:38:33.366
+!MESSAGE Resource '/sets and maps/src/Classwork2TreeSets.java' does not exist.
+
+!ENTRY mergedoc.encoding 2 0 2022-03-23 13:38:33.366
+!MESSAGE Resource '/sets and maps/src/Classwork2TreeSets.java' does not exist.
+
+!ENTRY mergedoc.encoding 2 0 2022-03-23 13:38:33.367
+!MESSAGE Resource '/sets and maps/src/Classwork2TreeSets.java' does not exist.
+
+!ENTRY mergedoc.encoding 2 0 2022-03-23 13:38:33.368
+!MESSAGE Resource '/sets and maps/src/Classwork2TreeSets.java' does not exist.
+
+!ENTRY mergedoc.encoding 2 0 2022-03-23 13:38:33.368
+!MESSAGE Resource '/sets and maps/src/Classwork2TreeSets.java' does not exist.
+
+!ENTRY mergedoc.encoding 2 0 2022-03-23 13:38:33.382
+!MESSAGE Resource '/sets and maps/src/Classwork2TreeSets.java' does not exist.
+
+!ENTRY mergedoc.encoding 2 0 2022-03-23 13:38:33.382
+!MESSAGE Resource '/sets and maps/src/Classwork2TreeSets.java' does not exist.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-23 13:42:25.399
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-23 13:42:37.404
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-23 13:46:52.323
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-23 13:50:21.736
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-23 14:15:45.505
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+!SESSION 2022-03-27 22:12:50.698 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-03-27 22:13:08.738
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-27 22:13:08.738
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@32cde414,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e4bb10b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-27 22:13:13.923
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Konstantin T'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-27 22:13:17.866
+!MESSAGE Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 22:14:06.767
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 22:14:11.615
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 22:14:19.563
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 22:19:00.684
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 22:19:04.046
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 22:20:52.763
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 22:26:36.391
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 22:59:48.944
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 23:01:29.543
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 23:05:14.690
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 23:05:29.431
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 23:29:58.879
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 23:33:21.735
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 23:33:49.885
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 23:33:54.632
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 23:34:06.169
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 23:35:37.145
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 23:43:09.061
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 23:43:37.443
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 23:45:57.900
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-27 23:46:32.431
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 00:04:31.347
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 00:43:18.880
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 00:53:51.619
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 00:53:56.577
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 02:54:24.705
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 02:54:49.664
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 03:00:47.973
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 03:12:16.878
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+!SESSION 2022-03-28 15:47:14.761 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-03-28 15:47:32.524
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-28 15:47:32.524
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@37f71e8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@63b0b3dd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-28 15:47:38.697
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Konstantin T'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-28 15:47:42.859
+!MESSAGE Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 16:39:50.782
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 16:40:04.316
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 16:45:28.711
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 16:46:08.204
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 16:46:43.128
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 16:57:19.124
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 16:57:24.282
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:04:54.511
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:05:19.434
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:06:05.121
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:06:44.150
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:11:07.527
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:16:32.107
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:17:09.757
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:19:12.642
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:25:50.097
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:26:17.711
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:27:58.386
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:32:18.710
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:32:44.390
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:33:30.101
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:33:39.008
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:33:48.902
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:33:51.936
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:38:07.919
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:38:23.320
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:38:34.018
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:38:41.500
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:42:16.315
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:42:22.238
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-03-28 17:42:26.547
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
